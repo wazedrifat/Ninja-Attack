@@ -2,15 +2,36 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="backGround.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="person.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="33" topLine="0" />
+			<Cursor1 position="203" topLine="4" />
 		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+		</Folding>
 	</File>
 	<File name="dbg.txt" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
+	</File>
+	<File name="backGround.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="33" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1866" topLine="28" />
+		</Cursor>
+		<Folding>
+			<Collapse line="20" />
+			<Collapse line="24" />
+			<Collapse line="43" />
+			<Collapse line="65" />
+			<Collapse line="100" />
+			<Collapse line="144" />
+		</Folding>
 	</File>
 	<File name="Shape.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
@@ -27,25 +48,6 @@
 			<Collapse line="84" />
 			<Collapse line="100" />
 			<Collapse line="104" />
-		</Folding>
-	</File>
-	<File name="person.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="203" topLine="4" />
-		</Cursor>
-		<Folding>
-			<Collapse line="5" />
-		</Folding>
-	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1927" topLine="28" />
-		</Cursor>
-		<Folding>
-			<Collapse line="18" />
-			<Collapse line="39" />
-			<Collapse line="95" />
-			<Collapse line="138" />
 		</Folding>
 	</File>
 </CodeBlocks_layout_file>

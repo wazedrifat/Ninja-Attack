@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1599506089 source:c:\wazedrifat\vscode\opengl\try2\main.cpp
+1599669334 source:c:\wazedrifat\vscode\opengl\try2\main.cpp
 	"person.h"
+	<MMsystem.h>
 
 1426328128 c:\mingw\include\gl\glut.h
 	"freeglut_std.h"

@@ -7,6 +7,8 @@
 #define moveMentSpeed 6
 #define enemyFrequency 100
 
+#include <MMsystem.h>
+
 int cnt = 0, score = 0;
 Person p;
 bool u, d, r, l, gameOver = 0;
@@ -30,10 +32,12 @@ void MyKeyboardFunc(unsigned char key, int x, int y) {
 void MyMouseFunc(int button, int state, int x, int y) {
 	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN && fabs(getTime() - prevTimeMouseCLicked) >= minDifference) {
 		kunaies.push_back(Kunai(p.x - 20, p.y - 100, 1));
+		PlaySound("C:\\wazedrifat\\vscode\\opengl\\try2\\throw.wav", NULL, SND_ASYNC);
 	}
 
 	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN && fabs(getTime() - prevTimeMouseCLicked) >= minDifference) {
 		kunaies.push_back(Kunai(p.x + 20, p.y - 100, -1));
+		PlaySound("C:\\wazedrifat\\vscode\\opengl\\try2\\throw.wav", NULL, SND_ASYNC);
 	}
 }
 
@@ -55,6 +59,7 @@ void init() {
 	glutMouseFunc(MyMouseFunc);
 	glutKeyboardUpFunc(MyKeyboardUpFunc);
 	srand((unsigned) time(0));
+	PlaySound("C:\\wazedrifat\\vscode\\opengl\\try2\\music.wav", NULL, SND_ASYNC|SND_LOOP);
 //	ILboolean s;
 }
 
@@ -115,6 +120,7 @@ void timer(int userLessValue) {
 			Person &e = enemies[j];
 			if (k.xRight() >= e.xLeft() && k.xLeft() <= e.xRight() && k.yDown() <= e.yUp() && k.yUp() >= e.yDown()) {
 				enemies.erase(enemies.begin() + j);
+				PlaySound("C:\\wazedrifat\\vscode\\opengl\\try2\\hit.wav", NULL, SND_ASYNC);
 				score++;
 				hit = 1;
 				break;
@@ -151,6 +157,7 @@ void timer(int userLessValue) {
 
 		if (e.xRight() >= p.xLeft() && e.xLeft() <= p.xRight() && e.yDown() <= p.yUp() && e.yUp() >= p.yDown()) {
 			gameOver = 1;
+			PlaySound("C:\\wazedrifat\\vscode\\opengl\\try2\\gameOver.wav", NULL, SND_ASYNC);
 			kunaies.clear();
 			break;
 		}
@@ -165,7 +172,7 @@ int main(int argc, char** argv) {
 
     glutInitWindowPosition(300, 0);
     glutInitWindowSize(height, width);
-    glutCreateWindow("window 1");
+    glutCreateWindow("Ninja City");
 
     glutDisplayFunc(display);
     glutReshapeFunc(reShape);
