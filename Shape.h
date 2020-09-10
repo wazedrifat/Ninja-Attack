@@ -6,7 +6,6 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <windows.h>
-#include "IL/il.h"
 using namespace std;
 
 #define PDD pair <double, double>
@@ -170,3 +169,4 @@ void drawBackground() {
 	cloud(Position(0, 500));
 }
 #endif // SHAPE_H_INCLUDED
+

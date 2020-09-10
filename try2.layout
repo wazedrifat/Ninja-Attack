@@ -2,12 +2,27 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="person.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Shape.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="203" topLine="4" />
+			<Cursor1 position="163" topLine="5" />
 		</Cursor>
 		<Folding>
-			<Collapse line="5" />
+			<Collapse line="14" />
+			<Collapse line="18" />
+			<Collapse line="22" />
+			<Collapse line="26" />
+			<Collapse line="30" />
+			<Collapse line="34" />
+			<Collapse line="44" />
+			<Collapse line="53" />
+			<Collapse line="61" />
+			<Collapse line="67" />
+			<Collapse line="83" />
+			<Collapse line="99" />
+			<Collapse line="103" />
+			<Collapse line="119" />
+			<Collapse line="130" />
+			<Collapse line="147" />
 		</Folding>
 	</File>
 	<File name="dbg.txt" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -22,32 +37,27 @@
 	</File>
 	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1866" topLine="28" />
+			<Cursor1 position="41" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="20" />
-			<Collapse line="24" />
-			<Collapse line="43" />
-			<Collapse line="65" />
-			<Collapse line="100" />
-			<Collapse line="144" />
+			<Collapse line="18" />
+			<Collapse line="22" />
+			<Collapse line="29" />
+			<Collapse line="41" />
+			<Collapse line="48" />
+			<Collapse line="63" />
+			<Collapse line="98" />
+			<Collapse line="142" />
+			<Collapse line="166" />
 		</Folding>
 	</File>
-	<File name="Shape.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="person.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2490" topLine="38" />
+			<Cursor1 position="203" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="15" />
-			<Collapse line="19" />
-			<Collapse line="23" />
-			<Collapse line="45" />
-			<Collapse line="54" />
-			<Collapse line="62" />
-			<Collapse line="68" />
-			<Collapse line="84" />
-			<Collapse line="100" />
-			<Collapse line="104" />
+			<Collapse line="5" />
+			<Collapse line="63" />
 		</Folding>
 	</File>
 </CodeBlocks_layout_file>

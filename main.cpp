@@ -1,11 +1,9 @@
 #include "person.h"
 
 #define height 700
-#define width 700
-#define personMovementSpeed 10
 #define minDifference 100.0
 #define moveMentSpeed 6
-#define enemyFrequency 100
+#define enemyFrequency 40
 
 #include <MMsystem.h>
 
@@ -180,3 +178,6 @@ int main(int argc, char** argv) {
     init();
     glutMainLoop();
 }
+
+
+

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1599669334 source:c:\wazedrifat\vscode\opengl\try2\main.cpp
+1599728947 source:c:\wazedrifat\vscode\opengl\try2\main.cpp
 	"person.h"
 	<MMsystem.h>
 
@@ -361,13 +361,12 @@
 	<stddef.h>
 	<GL/gl.h>
 
-1599506006 c:\wazedrifat\vscode\opengl\try2\shape.h
+1599728884 c:\wazedrifat\vscode\opengl\try2\shape.h
 	<bits/stdc++.h>
 	<GL/glut.h>
 	<GL/gl.h>
 	<GL/glu.h>
 	<windows.h>
-	"IL/il.h"
 
 1599494964 c:\wazedrifat\vscode\opengl\try2\person.h
 	"Shape.h"
